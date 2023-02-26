@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@loadable/component": "^5.15.2",
-    "@plasmicapp/host": "^1.0.100",
+    "@plasmicapp/host": "^1.0.107",
     "@plasmicapp/loader-nextjs": "^1.0.224",
     "@plasmicpkgs/keen-slider": "file:.yalc/@plasmicpkgs/keen-slider",
     "@plasmicpkgs/plasmic-audio": "file:.yalc/@plasmicpkgs/plasmic-audio",

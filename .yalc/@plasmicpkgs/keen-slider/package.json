@@ -1,6 +1,6 @@
 {
   "name": "@plasmicpkgs/keen-slider",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "Plasmic registration call for the Keen Slider component",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -36,5 +36,5 @@
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
   },
-  "yalcSig": "78ed7e402df26953c1ca37cdfad7bfaa"
+  "yalcSig": "6848bc81c3702ef9090fe07b762d4ce7"
 }

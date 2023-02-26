@@ -272,16 +272,17 @@ var sliderMeta = {
     containerHeight: {
       displayName: "Height",
       type: "string",
-      description: "Specifies height to slider container "
+      description: "Specifies height to slider container ",
+      defaultValue: "100%"
     },
     vertical: {
       displayName: "Vertical",
       type: "boolean",
       description: "Vertical slide mode",
-      defaultValueHint: false
+      defaultValueHint: false,
+      helpText: "Please make sure you set height to 100% in order to make vertical slide"
     }
   },
-  isDefaultExport: true,
   defaultStyles: {
     width: "stretch",
     maxWidth: "100%",
