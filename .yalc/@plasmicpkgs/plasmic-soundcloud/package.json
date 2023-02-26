@@ -1,0 +1,39 @@
+{
+  "name": "@plasmicpkgs/plasmic-soundcloud",
+  "version": "0.0.5",
+  "description": "Plasmic SoundCloud components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-soundcloud.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-soundcloud.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-soundcloud.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@plasmicapp/query": "^0.1.59"
+  },
+  "yalcSig": "bc9da0a7163a147861f40e82be5b6ae5"
+}

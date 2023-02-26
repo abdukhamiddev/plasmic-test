@@ -1,0 +1,40 @@
+{
+  "name": "@plasmicpkgs/plasmic-eventbrite",
+  "version": "0.0.2",
+  "description": "Plasmic Eventbrite components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-eventbrite.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-eventbrite.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-eventbrite.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@types/uuid": "^8.3.4",
+    "uuid": "^9.0.0"
+  },
+  "yalcSig": "f8152f8e11b8557f4b8f84adc823f3bd"
+}

@@ -1,0 +1,41 @@
+{
+  "name": "@plasmicpkgs/plasmic-pigeon-maps",
+  "version": "0.0.1",
+  "description": "Plasmic Pigeon Maps components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-pigeon-maps.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-pigeon-maps.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-pigeon-maps.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@plasmicapp/host": "1.0.81",
+    "@plasmicapp/query": "0.1.54",
+    "pigeon-maps": "^0.21.3"
+  },
+  "yalcSig": "ed9a335183e6ab4be2be00aa541845a2"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "@plasmicpkgs/plasmic-revue",
+  "version": "0.0.1",
+  "description": "Plasmic revue components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-revue.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-revue.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-revue.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@plasmicapp/host": "1.0.81",
+    "@plasmicapp/query": "0.1.54",
+    "@types/dlv": "^1.1.2",
+    "dlv": "^1.1.3"
+  },
+  "yalcSig": "3b3a8a9d7165b27ad47682dcb922adda"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "@plasmicpkgs/plasmic-contentful",
+  "version": "0.0.56",
+  "description": "Plasmic Contentful components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-contentful.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-contentful.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-contentful.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.13.1",
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@plasmicapp/host": "1.0.81",
+    "@plasmicapp/query": "0.1.55",
+    "change-case": "^4.1.2",
+    "dlv": "^1.1.3"
+  },
+  "yalcSig": "0da0e210ec2bff920b63e8b16a25b3ec"
+}

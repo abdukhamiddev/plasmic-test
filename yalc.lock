@@ -1,0 +1,101 @@
+{
+  "version": "v1",
+  "packages": {
+    "@plasmicpkgs/plasmic-strapi": {
+      "signature": "da137b7882a723a41a4cdf2ac30a7de1",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-contentful": {
+      "signature": "0da0e210ec2bff920b63e8b16a25b3ec",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-content-stack": {
+      "signature": "325b8ffa66eed55c9aa8e4c6fd280196",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-sanity-io": {
+      "signature": "57f468b8d15aed2f5c048477ba6beee9",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-pigeon-maps": {
+      "signature": "ed9a335183e6ab4be2be00aa541845a2",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-intercom": {
+      "signature": "0f6802784dcefa8f86d8d601bc436e14",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-contentstack": {
+      "signature": "5a7426a27d91ba22b76325b284833940",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-revue": {
+      "signature": "3b3a8a9d7165b27ad47682dcb922adda",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-typeform": {
+      "signature": "a4497bb4c8d87e92b2dba477200f943d",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-lite-embed": {
+      "signature": "4efc70ab56d4546cf00b645db10f722c",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-wordpress": {
+      "signature": "fe93851de8fcf90f24fa85bdadc48f63",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-calendly": {
+      "signature": "702c3ad0f7db4ea9cc1924a8ecfe08bc",
+      "file": true
+    },
+    "@plasmicpkgs/keen-slider": {
+      "signature": "78ed7e402df26953c1ca37cdfad7bfaa",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-google-maps": {
+      "signature": "9c20cccae5bc2e1b9171b5697f053feb",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-mailchimp": {
+      "signature": "33ec69dd1de2d02c9eb5808f05a41bab",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-hubspot": {
+      "signature": "b44cc0e4163eb6f28f9b6fbb76020ec0",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-eventbrite": {
+      "signature": "f8152f8e11b8557f4b8f84adc823f3bd",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-soundcloud": {
+      "signature": "bc9da0a7163a147861f40e82be5b6ae5",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-spotify": {
+      "signature": "607eae06ddd76d4d7d4265b17aef89a3",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-giphy": {
+      "signature": "497f5e525f0d26fd4ed3eca5b7419f96",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-audio": {
+      "signature": "6458d7346f63fabdc8330181f3bf651e",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-humaaans": {
+      "signature": "d4ed060d9536f9d86fab8717f210d18f",
+      "file": true
+    },
+    "@plasmicpkgs/humaaans": {
+      "signature": "6767643074018ae55dfda92b13388fe4",
+      "file": true
+    },
+    "@plasmicpkgs/plasmic-yotpo": {
+      "signature": "46133082c3b8b4ea9df065d3c49eae3a",
+      "file": true
+    }
+  }
+}

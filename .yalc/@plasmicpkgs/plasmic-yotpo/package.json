@@ -1,0 +1,43 @@
+{
+  "name": "@plasmicpkgs/plasmic-yotpo",
+  "version": "0.0.2",
+  "description": "Plasmic Yotpo components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-yotpo.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-yotpo.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-yotpo.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@plasmicapp/host": "^1.0.89",
+    "@plasmicapp/query": "^0.1.42",
+    "@types/lodash-es": "^4.17.6",
+    "lodash": "^4.17.21",
+    "lodash-es": "^4.17.21"
+  },
+  "yalcSig": "46133082c3b8b4ea9df065d3c49eae3a"
+}

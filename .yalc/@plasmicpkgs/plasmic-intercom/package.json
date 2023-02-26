@@ -1,0 +1,39 @@
+{
+  "name": "@plasmicpkgs/plasmic-intercom",
+  "version": "0.0.1",
+  "description": "Plasmic intercom components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-intercom.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-intercom.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-intercom.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "react-use-intercom": "^2.0.0"
+  },
+  "yalcSig": "0f6802784dcefa8f86d8d601bc436e14"
+}

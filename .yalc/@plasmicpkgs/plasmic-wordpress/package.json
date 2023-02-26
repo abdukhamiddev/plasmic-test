@@ -1,0 +1,41 @@
+{
+  "name": "@plasmicpkgs/plasmic-wordpress",
+  "version": "0.0.21",
+  "description": "Plasmic Wordpress components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-wordpress.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-wordpress.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-wordpress.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {
+    "@plasmicapp/query": "0.1.53",
+    "@types/dlv": "^1.1.2",
+    "dlv": "^1.1.3"
+  },
+  "yalcSig": "fe93851de8fcf90f24fa85bdadc48f63"
+}

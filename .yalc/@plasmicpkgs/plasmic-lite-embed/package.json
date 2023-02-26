@@ -1,0 +1,40 @@
+{
+  "name": "@plasmicpkgs/plasmic-lite-embed",
+  "version": "0.0.1",
+  "description": "Plasmic Lite Embed components.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/plasmic-lite-embed.esm.js",
+  "files": [
+    "dist"
+  ],
+  "size-limit": [
+    {
+      "path": "dist/plasmic-lite-embed.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-lite-embed.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "scripts": {
+    "build": "tsdx build",
+    "start": "tsdx watch",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "dependencies": {
+    "@lite-embed/react": "^1.0.4",
+    "@plasmicapp/query": "0.1.55",
+    "@types/react": "16.8",
+    "react": "16.8"
+  },
+  "peerDependencies": {
+    "@plasmicapp/host": "^1.0.54",
+    "react-dom": ">=16.8.0"
+  },
+  "yalcSig": "4efc70ab56d4546cf00b645db10f722c"
+}

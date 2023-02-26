@@ -1,0 +1,37 @@
+{
+  "name": "@plasmicpkgs/plasmic-google-maps",
+  "version": "0.0.2",
+  "description": "Plasmic Google Maps components.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "module": "dist/plasmic-google-maps.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "size": "size-limit",
+    "analyze": "size-limit --why"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "size-limit": [
+    {
+      "path": "dist/plasmic-google-maps.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/plasmic-google-maps.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {},
+  "yalcSig": "9c20cccae5bc2e1b9171b5697f053feb"
+}
