@@ -8,9 +8,9 @@ import "keen-slider/keen-slider.min.css";
 export const PLASMIC = initPlasmicLoader({
   projects: [
     {
-      id: "snN5qBE9ggstXkatfJivmJ",
+      id: "bTrCbG5K3cJQAWZKND4Yhg",
       token:
-        "Fw3AIfqUw2NxDTyOr9PpkMId3bMoBdNnOBOdO22RyeZBD0dBK5u573tNbLYQt25tAUrUlOjL7fGZVoS4Qw",
+        "BR7RnyFE9lyjl1FLq3D4KDlTsQeyPYg8Nr2xsuwcIkBledmddbgTMu4btzafYrqutN5dFGfCDRFyRK1qdWw",
     },
   ],
 
@@ -57,14 +57,14 @@ registerRevue(PLASMIC);
 ContentfulRegister(PLASMIC);
 ContentstackRegister(PLASMIC);
 registerPigeon(PLASMIC);
-registerTypeform(PLASMIC);
+// registerTypeform(PLASMIC);
 registerKeen(PLASMIC);
-hubspot(PLASMIC);
+// hubspot(PLASMIC);
 googleMaps(PLASMIC);
 eventbrite(PLASMIC);
 soundcloud(PLASMIC);
-mailchimp(PLASMIC);
-spotify(PLASMIC);
+// mailchimp(PLASMIC);
+// spotify(PLASMIC);
 
 
 

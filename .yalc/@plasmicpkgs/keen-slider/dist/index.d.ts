@@ -2,7 +2,6 @@ import registerComponent, { ComponentMeta } from "@plasmicapp/host/registerCompo
 import React from "react";
 import { KeenSliderOptions } from "keen-slider";
 interface KeenSliderProps extends KeenSliderOptions {
-    containerHeight?: string;
 }
 export declare const sliderMeta: ComponentMeta<KeenSliderProps>;
 export declare const SliderWrapper: React.ForwardRefExoticComponent<KeenSliderProps & {

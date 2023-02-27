@@ -233,7 +233,7 @@ var sliderMeta = {
       defaultValueHint: 1
     },
     loop: {
-      displayName: "Loop Option",
+      displayName: "Loop",
       type: "boolean",
       description: "Enable or disables carousel/loop functionality of the slider",
       defaultValueHint: false
@@ -269,18 +269,12 @@ var sliderMeta = {
       type: "number",
       description: "Specifies number of slider "
     },
-    containerHeight: {
-      displayName: "Height",
-      type: "string",
-      description: "Specifies height to slider container ",
-      defaultValue: "100%"
-    },
     vertical: {
       displayName: "Vertical",
       type: "boolean",
       description: "Vertical slide mode",
       defaultValueHint: false,
-      helpText: "Please make sure you set height to 100% in order to make vertical slide"
+      helpText: "(Note: The height of the container must be defined if vertical is true)"
     }
   },
   defaultStyles: {
@@ -292,10 +286,9 @@ var sliderMeta = {
 var SliderWrapper = /*#__PURE__*/forwardRef(function SliderWrapper_(_ref5, userRef) {
   var editingSlide = _ref5.editingSlide,
       children = _ref5.children,
-      containerHeight = _ref5.containerHeight,
       className = _ref5.className,
       setControlContextData = _ref5.setControlContextData,
-      props = _objectWithoutPropertiesLoose(_ref5, ["editingSlide", "children", "containerHeight", "className", "setControlContextData"]);
+      props = _objectWithoutPropertiesLoose(_ref5, ["editingSlide", "children", "className", "setControlContextData"]);
 
   setControlContextData == null ? void 0 : setControlContextData({
     editingSlide: editingSlide
@@ -317,7 +310,7 @@ var SliderWrapper = /*#__PURE__*/forwardRef(function SliderWrapper_(_ref5, userR
     className: "keen-slider"
   }, props, {
     style: {
-      height: "" + containerHeight
+      height: "100%"
     }
   }), React.Children.map(children, function (child) {
     return React.cloneElement(child, {
