@@ -21,7 +21,6 @@
     "@plasmicpkgs/plasmic-giphy": "file:.yalc/@plasmicpkgs/plasmic-giphy",
     "@plasmicpkgs/plasmic-google-maps": "file:.yalc/@plasmicpkgs/plasmic-google-maps",
     "@plasmicpkgs/plasmic-hubspot": "file:.yalc/@plasmicpkgs/plasmic-hubspot",
-    "@plasmicpkgs/plasmic-humaaans": "file:.yalc/@plasmicpkgs/plasmic-humaaans",
     "@plasmicpkgs/plasmic-intercom": "file:.yalc/@plasmicpkgs/plasmic-intercom",
     "@plasmicpkgs/plasmic-lite-embed": "file:.yalc/@plasmicpkgs/plasmic-lite-embed",
     "@plasmicpkgs/plasmic-mailchimp": "file:.yalc/@plasmicpkgs/plasmic-mailchimp",
